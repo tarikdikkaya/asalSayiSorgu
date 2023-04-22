@@ -1,7 +1,7 @@
 # Kullanıcıdan bir sayı girişi yapmasını istiyoruz.
 girilenSayi = int(input("Asal olup olmadığını kontrol etmek istediğiniz sayıyı giriniz: "))
 
-# Girilen sayıya tam bölünen sayıları kaydetmek için bir liste oluşturuyoruz.
+# Girilen sayıyı tam bölen sayıları kaydetmek için bir liste oluşturuyoruz.
 bolunenler = []
 
 while True:
