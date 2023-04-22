@@ -11,7 +11,7 @@ while True:
         if girilenSayi % i == 0:
             bolunenler.append(i)
 
-    # 'bolunenler' listesinin uzunluğu 0'a eşit değilse yani sayının tam bölüneni varsa
+    # 'bolunenler' listesinin uzunluğu 0'a eşit değilse yani sayının tam böleni varsa
     # kullanıcıya sayının asal olmadığını bildiriyoruz. 
     if len(bolunenler) != 0:
         print(f"{girilenSayi} asal değil. {bolunenler} sayılarına bölünüyor.")
